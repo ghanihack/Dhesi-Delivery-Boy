@@ -1,48 +1,48 @@
 {
-  "name": "zomo app",
-  "short_name": "zomo app",
+  "name": "Dhesi Delivery Boy app",
+  "short_name": "Dhesi Delivery Boy app",
   "lang": "en-US",
   "start_url": ".",
   "display": "standalone",
   "background_color": "black",
   "theme_color": "#ff8d2f",
-  "description": "zomo app",
+  "description": "Dhesi Delivery Boy app",
   "icons": [
     {
-      "src": "assets/images/logo/favicon.png",
+      "src": "favicon.png",
       "sizes": "40x40",
       "type": "image/png"
     },
     {
-      "src": "assets/images/logo/48.png",
+      "src": "48.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "assets/images/logo/72.png",
+      "src": "72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "assets/images/logo/96.png",
+      "src": "96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/images/logo/144.png",
+      "src": "144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/images/logo/168.png",
+      "src": "168.png",
       "sizes": "168x168",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/images/logo/512.png",
+      "src": "512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
