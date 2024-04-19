@@ -37,7 +37,7 @@ function watch() {
   });
   gulp.watch("*.scss", style);
   gulp.watch("**/*.html").on("change", browserSync.reload);
-  gulp.watch("assets/css/*.css").on("change", browserSync.reload);
+  gulp.watch("*.css").on("change", browserSync.reload);
 }
 
 exports.style = style;
