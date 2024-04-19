@@ -8,7 +8,7 @@ const feather = require("feather-icons");
 //scss to css
 function style() {
   return gulp
-    .src("assets/scss/**/*.scss", {
+    .src("*.scss", {
       sourcemaps: true,
     })
     .pipe(
@@ -33,9 +33,9 @@ gulp;
 // Watch function
 function watch() {
   browserSync.init({
-    proxy: "localhost/zomo/food-delivery-app/index.html",
+    proxy: "index.html",
   });
-  gulp.watch("assets/scss/**/*.scss", style);
+  gulp.watch("*.scss", style);
   gulp.watch("**/*.html").on("change", browserSync.reload);
   gulp.watch("assets/css/*.css").on("change", browserSync.reload);
 }
